@@ -1,6 +1,6 @@
 {
   "name": "@stefandesu/hello-world",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "You give me hello, I give you world.",
   "main": "index.js",
   "files": [],
