@@ -4,7 +4,7 @@
   "description": "You give me hello, I give you world.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/stefandesu/npm-hello-world/issues"
   },
-  "homepage": "https://github.com/stefandesu/npm-hello-world#readme"
+  "homepage": "https://github.com/stefandesu/npm-hello-world#readme",
+  "devDependencies": {
+    "mocha": "^8.1.2"
+  }
 }
