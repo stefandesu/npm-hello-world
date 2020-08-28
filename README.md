@@ -46,6 +46,8 @@ This will:
 - Push `main` with tags
 - Switch back to `dev`
 
+After running this, GitHub Actions will automatically publish the new version to NPM. It will also create a new GitHub Release. Edit the release as necessary.
+
 ## Contribute
 PRs accepted.
 
