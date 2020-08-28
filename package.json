@@ -1,0 +1,19 @@
+{
+  "name": "@stefandesu/hello-world",
+  "version": "0.0.0",
+  "description": "You give me hello, I give you world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefandesu/npm-hello-world.git"
+  },
+  "author": "Stefan Peters",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/stefandesu/npm-hello-world/issues"
+  },
+  "homepage": "https://github.com/stefandesu/npm-hello-world#readme"
+}
