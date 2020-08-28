@@ -7,4 +7,9 @@ describe("Index", () => {
       assert.equal(hw.hello, "world")
     })
   })
+  describe("world", () => {
+    it("should return hello", () => {
+      assert.equal(hw.world, "hello")
+    })
+  })
 })

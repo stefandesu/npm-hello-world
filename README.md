@@ -12,6 +12,7 @@ npm i @stefandesu/hello-world
 ```js
 const hw = require("@stefandesu/hello-world")
 console.log(hw.hello) // prints "world"
+console.log(hw.world) // prints "hello"
 ```
 
 ## Test
