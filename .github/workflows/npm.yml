@@ -3,9 +3,6 @@ name: Deploy to NPM
 
 on:
   push:
-    # Only run on main
-    branches:
-      - main
     # Only for version-tagged commits
     tags:
       - v*
