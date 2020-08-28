@@ -9,7 +9,7 @@ on:
 
 jobs:
   npm:
-    name: Deploy to NPM
+    name: Deploy to npm
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -20,7 +20,7 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
     - run: npm ci
     # Publish with access=publish because we're using a namespaced package name
-    - name: Publish to NPM
+    - name: Publish to npm
       run: npm publish --access=public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
