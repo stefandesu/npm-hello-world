@@ -9,10 +9,10 @@ npm i @stefandesu/hello-world
 
 ## Usage
 
-``js
+```js
 const hw = require("@stefandesu/hello-world")
 console.log(hw.hello) # prints "world"
-``
+```
 
 ## Test
 
